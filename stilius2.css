@@ -1,0 +1,43 @@
+.container{
+	max-width:1000px;
+	
+}
+.turinys{
+	display: flex;
+	background: red;
+	width:500px;
+	height:500px;
+	flex-wrap:wrap;
+}
+.box {
+	min-width:100px;
+	height:100px;
+	flex-grow: 1;
+}
+.b1{
+	background: yellow;
+	
+}
+.b2{
+	background: blue;
+	
+}
+.b3{
+	background: green;
+	
+}
+.btn{
+	display:block;
+	width:100px;
+	border: 1px solid red;
+	background-color:yellow;
+}
+.balionas{
+	transform:translateX(20px);
+	transform:translateX(-20px);
+	transform:translateY(-20px);
+	transform:translateY(20px);
+	
+	transform:translate(20px,20px);
+	transition: 2s;
+}

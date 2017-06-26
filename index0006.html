@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>HTML Pasikartojimui</title>	
+
+	<meta charset="UTF-8"/>
+	<meta name="author" content = "AUTORIUS"/>
+	<meta http-equiv="refresh" content="10"/>
+	
+
+	<style>
+	.red {color:blue;
+	}
+
+	.green{color:yellow;
+	}
+	
+	.black{
+	color:black;
+	}
+	
+	.grey{
+	color:grey;
+	}
+	
+	</style>
+	
+	</head>
+
+	<body>
+	
+	<div id="conteiner">
+		<div id= "header">
+		<h1>Forma+JS<h1>
+		</div>
+		
+		
+		
+		<h2>FORMA<h2>
+			
+		
+		<div class ="f">
+		<h2>Savaites dienos</h2>
+		<p class="red">Pirm</p>
+		<p class="green">Antr</p>
+		<p class="red">Tre</p>
+		<p class="green">Ket</p>
+		<p class="red">Penk</p>
+		</div>
+		
+		
+		<br/>
+		<button onclick= "result()">Result </button>
+		<br/>
+		<br/>
+		<button onclick= "myf()">Result new </button>
+		<br/>
+			
+		
+		<div id= "footer">
+		<h2>Poraštė<h2>
+		</div>
+
+	</div>
+		
+	<script>
+	
+	function result(){
+	
+	 var x = document.getElementsByTagName("p");
+    // If "mystyle" exist, overwrite it with "mystyle2"
+    if (x.className === "red") {
+        x.className = "black";
+    } else {
+        x.className = "grey";
+    }
+	
+	/* var x= document.getElementsByClassName("green");
+	 for (var i=0; x.length; i++){
+	   x[i].innerHTML = "lYG";
+	
+	 }
+		
+	 var y = document.getElementsByClassName("red");
+		for (var i=0; y.length; i++){
+	  y[i].innerHTML = "NELYG";
+	
+	 }*/
+	 }
+	 /*
+	 function myf(){
+	 
+	
+    var x = document.getElementsByTagName("p");
+    // If "mystyle" exist, overwrite it with "mystyle2"
+    if (x.className === "red") {
+        x.className = "black";
+    } else {
+        x.className = "grey";
+    }
+} */
+
+	/*f (x = "green"){
+	x="red";
+	}
+	else{
+	x="green";*/
+
+	
+	/* var x= document.getElementsByTagName("p");
+	 for (var i=0; x.length; i++){
+	   	x[i].style.color='red';
+	 }
+		*/
+	 
+	 
+
+	
+	
+    /*
+	for (var i=0; i<document.getElementsByClassName("f").length; i++){
+	
+	var list = document.getElementsByClassName("f")[i];
+	
+	
+	if (document.getElementsByClassName("f").value ==="Pirm"){
+	
+	
+    list.getElementsByClassName("red")[i].innerHTML = "Milk";
+	
+	}
+	else{
+	
+	var list = document.getElementsByClassName("f")[i];
+	
+	list.getElementsByClassName("green")[i].innerHTML = "moo";
+	
+	
+	}
+   */
+	
+		
+	
+	
+	</script>
+	
+	</body>
+
+</html>

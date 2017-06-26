@@ -1,0 +1,29 @@
+.conteiner{
+	position:relative;
+	width:1000px;
+	height: 800px;
+	background-color:violet;
+	
+}
+.footer{
+	position:fixed;
+	bottom:0;
+	background:yellow;
+	width:1000px;
+	
+}
+.nav{
+	position:absolute;
+	width:100px;
+	height: 800px;
+	top: 50px;
+	right:0px;
+	background:red;
+}
+.turinys1{
+	position:absolute;
+	background-image: url(http://iy.delfi.lt/norm/97689/4308786_E1K00I.jpeg);
+	z-index:1;
+	width:500px;
+	height: 500px
+}

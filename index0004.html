@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>HTML Pasikartojimui</title>	
+
+	<meta charset="UTF-8"/>
+	<meta name="author" content = "AUTORIUS"/>
+	<meta http-equiv="refresh" content="10"/>
+	
+
+	<style>
+	
+	
+	
+	</style>
+	
+	</head>
+
+	<body>
+	
+	<div id="conteiner">
+		<div id= "header">
+		<h1>Forma+JS<h1>
+		</div>
+		
+		
+		
+		<h2>FORMA<h2>
+		<form id ="form">
+		
+		<p>Vardas<input type="text" id="name"/></p>
+		<p>Email<input type="text" id="email"/></p>
+		<p>TEXTAREA<textarea name ="textarea"></textarea></p>
+		<p>Range<input type="range"/></p>
+		<p>Checkboxes
+					<input type ="checkbox" name="c" value="a"/>
+					<input type ="checkbox" name="c" value="b"/>
+					<input type ="checkbox" name="c" value="c"/></p>
+		<p>Radio buttons:
+					<input type ="radio" name="r1"/>
+					<input type ="radio" name="r2"/>
+					<input type ="radio" name="r3"/>
+					
+				</p>
+		<p>Selections:
+					<select id= "select">
+					<option value ="o1">one</option>
+					<option value ="o2">two</option>
+					<option value ="o3">three</option>
+					<option value ="o4">four</option>
+					</select>
+		
+		</p>
+		<!----<p><input type="submit" name="s" value="Mygtukas" onclick="return display()"/></p>--->
+		<br/>
+		<input type="button" onClick= "multi()" Value="Multi"/>
+		<br/>
+		<input type="button" onClick= "select()" Value="select"/>
+		
+		</form>
+		
+		
+		<h1>Savaites dienos</h1>
+		<p id="s">Pirm</p>
+		<p id="s">Antr</p>
+		<p id="s">Tre</p>
+		<p id="s">Ket</p>
+		<p id="s">Penk</p>
+		
+		
+		Result: <span id= "result"></span>
+		
+		
+		Your choice: <span id= "result1"></span>
+		
+		
+		<br/>
+		<button type="button" onClick= 'document.getElementById("s").innerHTML="DARBO DIENA"'>Rezultatas </button>
+		
+		<br/>
+		
+		<input type="button" onClick= "dd()" value="dd"/>
+				
+		
+		<div id= "footer">
+		<h2>Poraštė<h2>
+		</div>
+
+		
+		
+		<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+
+		
+<form id="frm1" action="/action_page.php">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+</form>
+
+	</div>
+		
+	<script>
+	
+	function multi(){
+	
+	t1=document.getElementById("name").value;
+	t2=document.getElementById("email").value;
+	document.getElementById("result").innerHTML =t1+t2;
+	
+	}
+	
+	
+	function select(){
+	 var s = document.getElementById("select").value;
+	 document.getElementById("result1").innerHTML = s;
+	 
+	}
+	
+	
+	function dd(){
+	if (document.getElementById("name").value=="Antr"&& document.getElementById("name").value=="Ket"){
+	
+
+	document.getElementById("name").innerHTML="DARBO DIENA"
+	}
+	else{
+	document.getElementById("name").innerHTML="NEDARBO DIENA"
+	}
+	
+	}
+	
+	
+	function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 10) {
+        text = "Input not valid";
+    } else {
+        text = "Input OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+
+function myFunction() {
+    document.getElementById("frm1").submit();
+}
+	</script>
+	
+	</body>
+
+</html>

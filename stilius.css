@@ -1,0 +1,57 @@
+
+h1{
+	font-size:2em;
+	
+}
+
+p{
+	font-size:20px;
+}
+
+
+.conteiner{
+	 height:1000px;
+	 width:1000px;
+	 border: 15 px solid grey;
+}
+
+.header{
+	height:100px;
+	width:1000px;
+	background-color:red;
+}
+
+
+.meniu{
+	height:100px;
+	width:1000px;
+	background-color:red;
+}
+
+.turinys1{
+	height:700px;
+	width:1000px;
+	background-image:url(http://gs.delfi.lt/images/pix/520x345/Srhx5MfEEAg/braskes-74954338.jpg);
+}
+
+.footer{
+	height:100px;
+	width:1000px;
+	background-color:red;
+}
+
+nav a:link{
+	background-color:grey;
+}
+
+nav a:hover{
+	background-color:green;
+}
+
+nav a:visited{
+	color:blue;
+}
+
+nav a:active{
+	color:grey;
+}

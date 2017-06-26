@@ -1,0 +1,79 @@
+<!DOCTYPE>
+
+<html>
+
+<head>
+
+<style>
+
+.red{
+color:red;
+}
+
+.green{
+color:green;
+}
+
+</style>
+
+</head>
+
+<body>
+<h2>forma</h2>
+
+<div>
+<p class = "green">PIRM</p>
+<p class = "red">ANTR</p>
+<p class = "green">TREC</p>
+<p class = "red">KETV</p>
+<p class = "green">PENK</p>
+ <button onclick="myFunction()">Click me</button> 
+ </div>
+
+ 
+ <div>
+<p class = "green">PIRM</p>
+<p class = "green">ANTR</p>
+<p class = "green">TREC</p>
+<p class = "green">KETV</p>
+<p class = "green">PENK</p>
+
+
+ <button onclick="myFunction2()">Test me</button> 
+</div> 
+
+
+<script>
+
+
+function myFunction(){
+
+var x=document.getElementsByClassName("red");
+
+var y=document.getElementsByClassName("green");
+
+ for (i = 0; i < x.length; i++) {
+ /*   x[i].className = "green";*/
+	x[i].innerHTML= "Nelygines";
+} 
+for (i = 0; i < y.length; i++) {
+   
+	y[i].innerHTML= "Lgines";
+} 
+}
+
+function myFunction2(){
+var z = document.getElementsByTagName("p");
+var j = document.getElementsByClassName("green");
+
+for (i = 0; i < z.length; i++) {
+    z[i].className = "red";
+} 
+
+}
+
+
+</script>
+</body>
+
+</html>

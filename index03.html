@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>HTML Pasikartojimui</title>	
+
+	<meta charset="UTF-8"/>
+	<meta name="author" content = "AUTORIUS"/>
+	<meta http-equiv="refresh" content="10"/>
+	<style>
+	
+	main{ width:1000px;
+					height:1000px;
+					margin:auto;
+						
+	}
+	
+	header{
+	width:1000px;
+	height:100px;
+	background-color:red;
+	float:left;
+	}
+	
+	nav{
+	width:100px;
+	height:800px;
+	background-color:yellow;
+	float:left;
+	
+	}
+	
+	section{
+	width:900px;
+	height:800px;
+	background-color:violet;
+	float:left;
+	}
+	
+		
+	footer{
+	width:1000px;
+	height:100px;
+	background-color:green;
+	float:clear;
+	float:left;
+	}
+	
+	</style>
+	
+	</head>
+
+	<body>
+	
+	<main>
+		<header>
+		<h1>PAVANDINIMAS<h1>
+		<p>Su semantiniais elementais web puslapis</p>
+		</header>
+		
+		
+	
+		<nav>
+		<h2>MENIU<h1>
+		</nav>
+		
+		<section>
+		<h2>Forma<h1>
+		
+		<form id= "forma" onsubmit="return display()" method= "post">
+		
+		<p>text:<input type="text"/></p>
+		<p>password:<input type="password"/></p>
+		<p>date:<input type="date"/></p>
+		<p>color:<input type="color"/></p>
+		<p>email:<input type="email"/></p>
+		<p>numbers:<input type="number" min="1" max="5"/></p>
+		
+		<p>ckeckboxes:
+		<input type="checkbox" name="check1"/>
+		<input type="checkbox" name="check2"/></p>
+		
+		<p>radio:
+		<input type="radio" name="radio1"/>
+		<input type="radio" name="radio2"/></p>
+		
+		<p>selections:
+		<select name="slelect">
+		<option value= "dog">dog</option>
+		<option value= "cat">cat</option>
+		<option value= "rabbit">rabbit</option>
+		<option value= "duck">duck</option>
+		</select>
+		</p>
+		
+		
+		<p><input type="submit" value="Mygtukas" onclick ="return display()"/></p>
+		
+		</form>
+		</section>
+		
+				
+		<footer>
+		<h2>Poraštė<h1>
+		</footer>
+		
+	</main>
+	
+	
+	
+	</body>
+
+</html>

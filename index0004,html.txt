@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>HTML Pasikartojimui</title>	
+
+	<meta charset="UTF-8"/>
+	<meta name="author" content = "AUTORIUS"/>
+	<meta http-equiv="refresh" content="10"/>
+	
+
+	<style>
+	
+	
+	
+	</style>
+	
+	</head>
+
+	<body>
+	
+	<div id="conteiner">
+		<div id= "header">
+		<h1>CSS<h1>
+		<p>display</p>
+		</div>
+		
+		
+	
+		
+		<h2>Turinys1<h2>
+		<div id="turinys">
+		
+			<div id="box b1"></div>
+		
+			<div id="box b2"></div>
+			
+			<div id="box b3"></div>
+		
+		
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<div id= "nav">
+		<a id="btn">Mygtukas</a>
+		</div>
+		
+		<div id= "footer">
+		<h2>Poraštė<h2>
+		</div>
+
+		
+		
+	</div>
+		
+	<script>
+	
+	var myElement= document.getElementById("footer");
+	
+	alert (myElement.innerHTML);
+
+/*	var myElement2= document.createElementById("btn");
+	alert (myElement2.innerHTML);	
+	*/
+	</script>
+	
+	</body>
+
+</html>

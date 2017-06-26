@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title> PAVADINIMAS</title>	
+
+	</head>
+
+	<body>
+	
+	<div clas="new">
+
+	<h1 id ="tiitle">Events</h1>
+	<button onmouseout= "clearDate()" onmouseover="changeHeader()">show date</button>
+	</div>
+	
+	
+	<div clas="container">
+
+	<button onclick="this.innerHTML = 'YOU clicked'">click</button>
+	</div>
+	
+	<div clas="my">
+
+	<button onclick="changeText (this)">click</button>
+	</div>
+	
+	<script>
+	
+	function changeText (id){
+	id.innerHTML = 'You cliched';
+	}
+	/*works the same*/
+	function changeHeader (){
+	var headding= document.getElementById('tiitle');
+	tiitle.innerHTML= Date();
+
+	}
+	
+	function clearDate(){
+	var headding= document.getElementById('tiitle');
+	tiitle.innerHTML= 'EVENTS';
+	}
+	
+	
+	</script>
+		
+	</body>
+
+</html>
